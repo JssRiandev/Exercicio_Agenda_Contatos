@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color:rgb(242, 254, 254);
+    padding-top: 100px;
+}
+header{
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+header img{
+    height: 40px;
+    margin-right: 16px;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input{
+    font-size: 24px;
+    background-color: #fff;
+    border:none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+form button{
+    background-color: gold;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px;
+}
+form button:hover{
+    text-decoration:underline;
+}
+table{
+width: 100%;
+}
+table th{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    border-bottom: 3px solid rgba(0, 100, 250, 5.0);
+    border-top: 3px solid rgba(0, 100, 250, 5.0);
+    background-color: rgb(219, 243, 243);
+    font-weight: bold;
+    padding: 16px;
+}
+table td{
+    text-align: center;
+    font-size: 20px;
+    padding: 16px;
+    border-bottom: 1.5px solid rgba(0, 100, 250, 5.0);
+}
+table img{
+    height: 35px;
+    cursor:pointer;
+}
+
+
+
+
